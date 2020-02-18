@@ -215,3 +215,17 @@ body {
 .button:hover {
   background: linear-gradient(to right, #ff3571, #3c30ff);
 }
+
+@media (max-width: 960px) {
+  .header .header-bg-people {
+    display: none;
+  }
+
+  .width-one-third,
+  .width-two-thirds,
+  .width-half {
+    display: block;
+    float: unset;
+    width: unset;
+  }
+}
